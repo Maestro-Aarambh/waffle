@@ -1,1 +1,26 @@
-
+.*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    display: flex;
+    justify-content: left;
+    width: 25%;
+    height: 50%;
+    background-color: blue;
+}
+.sign{
+    display: flex;
+    justify-content: right;
+    width: 25%;
+    height: 50%;
+    background-color: black;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
